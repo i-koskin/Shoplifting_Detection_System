@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# YOLO model weights
+*.pt
+*.pth
+*.weights
+
+# XGBoost Models
+*.model
+*.json
+
+# Data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.h5
+*.npy
+*.npz
+*.sh
+*.md
+
+# Logs and debugging information
+logs/
+*.log
+*.log.*
+
+debug/
+*.debug
+
+alerts/
+
+test_videos/
+
+model_prepare/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker files
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+
+# Backup files
+*.bak
+*.backup
+
+# =================================
+# Exceptions
+# =================================
+
+!.env.production
+!.env.test
+!requirements.txt
+!Dockerfile
