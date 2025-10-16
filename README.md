@@ -140,9 +140,9 @@ graph TD
 
 *Отредактируйте под вашу конфигурацию файлы:*
 
-*  .env.production;*
+*  .env.production;
 
-*  .env.test.*
+*  .env.test
 
 ### 3. Запуск системы:
 
